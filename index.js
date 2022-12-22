@@ -27,7 +27,7 @@ app.post("/userinsert", (req, res) => {
     sqlinsert,
     [Username, Usermail, Useraddress, Usercontact, Userdob],
     (err, result) => {
-      res.status(200).json("hi");
+      res.status(200).json("success");
     }
   );
 });
